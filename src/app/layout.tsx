@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Lora } from "next/font/google";
 import "./globals.css";
-import Navbar from './components/Navbar';
-
 
 
 const lora = Lora({
@@ -25,7 +23,7 @@ export default function RootLayout({
       <body
         className={`${lora.variable} antialiased`}
       >
-        <Navbar />
+
         {children}
       </body>
     </html>

@@ -24,10 +24,10 @@ const ArtistMottos = () => {
   return (
     <div className=" py-10 px-10  mx-auto" style={{ backgroundColor: 'var(--background)', color: 'var(--foreground)' }}>
 
-      <div className="max-w-2xl mx-auto">
-        <div className="mb-4 p-4 bg-white shadow rounded-lg">
-          <h3 className="text-xl font-semibold text-black">{currentMotto.artist}</h3>
-          <p className="italic text-black">"{currentMotto.motto}"</p>
+      <div className="mx-auto">
+        <div className="flex flex-col items-center justify-center mb-4 p-4 rounded-lg">
+          <h3 className="text-xl font-semibold ">{currentMotto.artist}</h3>
+          <p className="italic ">"{currentMotto.motto}"</p>
         </div>
       </div>
     </div>

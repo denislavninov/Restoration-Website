@@ -6,10 +6,12 @@ import logo from '../../../public/logo.avif';
 const Navbar = () => {
   return (
     <div className="relative h-[500px] font-lora">
-      <Image src={painter1} alt="painter1" layout="fill" objectFit="cover" className="z-0 bg-black opacity-60" />
+      <div className="absolute inset-0 z-0 bg-black opacity-60">
+        <Image src={painter1} alt="painter1" fill style={{ objectFit: 'cover' }} />
+      </div>
       <nav className="absolute top-0 left-0 right-0 p-4 flex justify-between items-center z-10">
-        <div className="flex items-center ">
-          <Image src={logo} alt="logo" className="w-10 h-10 rounded-full" />
+        <div className="flex items-center">
+          <Image src={logo} alt="logo" width={40} height={40} className="rounded-full" />
         </div>
         <ul className="flex space-x-4" style={{ color: 'var(--foreground)' }}>
           <li><a href="#" className="font-bold">ABOUT US</a></li>

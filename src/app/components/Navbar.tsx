@@ -18,7 +18,7 @@ const Navbar = ({ contactRef }: { contactRef: React.RefObject<HTMLDivElement | n
 
   return (
     <div
-      className={`font-lora ${isHomePage ? 'relative h-[500px]' : ''}`}
+      className={`font-lora ${isHomePage ? 'relative h-[100vh]' : ''}`}
       style={{ backgroundColor: 'var(--background)', color: 'var(--foreground)' }}
     >
       {isHomePage && (

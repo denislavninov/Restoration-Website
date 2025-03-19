@@ -70,7 +70,7 @@ const Gallery = () => {
         </div>
         <div className="flex justify-center mt-4">
           <button
-            className="flex items-center justify-center bg-white text-black border-2 border-black px-4 py-2 rounded-md mt-4 hover:bg-black hover:text-white"
+            className="flex items-center justify-center bg-white text-black  px-4 py-2 rounded-xs mt-4 hover:bg-black hover:text-white"
             onClick={() => setShowMore(!showMore)}
           >
             {showMore ? 'Show Less' : 'View More'}

@@ -5,15 +5,15 @@ import { SlSocialInstagram, SlSocialFacebook, SlSocialTwitter, SlSocialLinkedin 
 const Footer = () => {
   return (
     <footer className=" bg-gradient-to-b from-#323232 to-black text-white py-8 mt-10">
-      <div className=" mx-auto px-4 flex flex-col justify-between h-full">
-        <div className="flex flex-col md:flex-row justify-between items-center mb-4">
+      <div className=" mx-auto px-4 flex flex-col justify-around h-full">
+        <div className="flex flex-col md:flex-row justify-around items-center mb-4">
 
           <div className="mb-4 md:mb-0">
-            <h2 className="text-xl font-bold">Contact Us</h2>
+            <h2 className="text-xl font-bold text-center">Contact Us</h2>
             <p className="text-sm">Email: info@example.com</p>
             <p className="text-sm">Phone: +123 456 7890</p>
           </div>
-          <div className="flex space-x-4">
+          <div className="flex space-x-6">
             <a href="#" className="text-white hover:text-gray-400 text-2xl"><SlSocialInstagram /></a>
             <a href="#" className="text-white hover:text-gray-400 text-2xl"><SlSocialFacebook /></a>
             <a href="#" className="text-white hover:text-gray-400 text-2xl"><SlSocialTwitter /></a>

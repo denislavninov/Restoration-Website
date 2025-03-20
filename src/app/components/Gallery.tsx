@@ -33,7 +33,7 @@ const Gallery = () => {
         <p className="text-lg font-lora text-center mb-8" style={{ color: 'var(--foreground)' }}>
           &quot;The aim of art is to represent not the outward appearance of things, but their inward significance.&quot; — Aristotle
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-2">
           {images.map((src, index) => (
             <motion.div
               key={index}

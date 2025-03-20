@@ -30,8 +30,8 @@ export default function Studio() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen mt-40">
-      <div className="carousel w-[1000px] max-w-3xl h-[80vh] relative overflow-hidden rounded-xs shadow-lg">
+    <div className="flex flex-col items-center justify-center h-screen mt-40 ">
+      <div className="carousel w-full max-w-3xl h-[80vh] sm:h-[60vh] md:h-[50vh] relative overflow-hidden rounded-xs shadow-lg ">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -41,8 +41,8 @@ export default function Studio() {
           </div>
         ))}
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-          <button onClick={prevSlide} className="btn btn-circle bg-transparent text-white text-5xl">‹</button>
-          <button onClick={nextSlide} className="btn btn-circle bg-transparent text-white text-5xl">›</button>
+          <button onClick={prevSlide} className="btn btn-circle bg-transparent text-white text-3xl sm:text-4xl md:text-5xl">‹</button>
+          <button onClick={nextSlide} className="btn btn-circle bg-transparent text-white text-3xl sm:text-4xl md:text-5xl">›</button>
         </div>
       </div>
       <div className="flex justify-center mt-8">

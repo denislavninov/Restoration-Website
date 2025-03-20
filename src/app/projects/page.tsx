@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 const Projects = () => {
   const router = useRouter();
@@ -15,7 +16,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
         {projects.map(project => (
           <div key={project.id} className=" shadow-lg rounded-xs overflow-hidden ">
-            <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+            <Image src={project.image} alt={project.title} width={400} height={192} className="w-full h-48 object-cover" />
             <div className="p-4">
               <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
               <p className=" mb-4">{project.description}</p>

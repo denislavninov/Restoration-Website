@@ -31,7 +31,7 @@ const Gallery = () => {
         <h1 className="text-3xl font-bold font-lora text-center mb-6" style={{ color: 'var(--foreground)' }}>Gallery</h1>
         <h2 className="text-xl font-lora text-center mb-6" style={{ color: 'var(--foreground)' }}>-Artistic masterpieces from our collection-</h2>
         <p className="text-lg font-lora text-center mb-8" style={{ color: 'var(--foreground)' }}>
-          "The aim of art is to represent not the outward appearance of things, but their inward significance." — Aristotle
+          &quot;The aim of art is to represent not the outward appearance of things, but their inward significance.&quot; — Aristotle
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4">
           {images.map((src, index) => (

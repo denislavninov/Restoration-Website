@@ -44,4 +44,6 @@ const CtaSection = forwardRef<HTMLDivElement>((props, ref) => {
   )
 })
 
+CtaSection.displayName = 'CtaSection'
+
 export default CtaSection

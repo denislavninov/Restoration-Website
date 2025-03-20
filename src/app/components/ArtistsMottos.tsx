@@ -27,7 +27,7 @@ const ArtistMottos = () => {
       <div className="mx-auto">
         <div className="flex flex-col items-center justify-center mb-4 p-4 rounded-lg">
           <h3 className="text-xl font-semibold ">{currentMotto.artist}</h3>
-          <p className="italic ">"{currentMotto.motto}"</p>
+          <p className="italic ">&quot;{currentMotto.motto}&quot;</p>
         </div>
       </div>
     </div>

@@ -1,8 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Restoration Website
+
+Welcome to the Restoration Website, a platform dedicated to showcasing and managing restoration projects. Built with [Next.js](https://nextjs.org) and styled using [Tailwind CSS](https://tailwindcss.com), this application leverages modern web technologies to provide a seamless and efficient user experience.
+
+## Project Overview
+
+The Restoration Website is designed to help users manage and display various restoration projects. Whether you're working on historical buildings, classic cars, or art pieces, this platform provides the tools you need to document and share your progress with the world.
+
+### Key Features
+
+- **Project Management**: Easily create, update, and manage your restoration projects.
+- **Photo Galleries**: Upload and organize images to visually document each stage of your restoration process.
+- **Progress Tracking**: Keep track of your project's progress with detailed logs and updates.
+- **Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the development server, run one of the following commands:
 
 ```bash
 npm run dev
@@ -14,23 +27,21 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: A React framework for building fast and scalable web applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Vercel**: Deploy your application effortlessly with the Vercel platform, ensuring high performance and reliability.
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploying your Next.js app is straightforward with the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme). Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

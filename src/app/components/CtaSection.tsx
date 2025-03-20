@@ -20,7 +20,7 @@ const CtaSection = forwardRef<HTMLDivElement>((props, ref) => {
         <div className="w-full h-70 mt-20">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d231.9441311168976!2d28.98064440997578!3d41.033122068641866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1str!2sse!4v1741785329299!5m2!1str!2sse"
-            width="500px"
+            width="100%"
             height="100%"
             style={{ border: 'none' }}
             allowFullScreen

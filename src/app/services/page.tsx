@@ -26,7 +26,7 @@ export default function Services() {
       <h1 className="text-4xl font-bold mb-8">Our Services</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
         {services.map((service, index) => (
-          <div key={index} className=" p-6 rounded-lg shadow-lg text-center">
+          <div key={index} className=" p-6 rounded-lg shadow-lg text-center bg-gradient-to-b from-current  to-transparent">
             <div className="mb-4">{service.icon}</div>
             <h2 className="text-2xl font-bold mb-2">{service.title}</h2>
             <p className="">{service.description}</p>

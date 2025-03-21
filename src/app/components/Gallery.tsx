@@ -30,9 +30,7 @@ const Gallery = () => {
       <div className="px-10 py-10" style={{ backgroundColor: 'var(--background)', color: 'var(--foreground)' }}>
         <h1 className="text-3xl font-bold font-lora text-center mb-6" style={{ color: 'var(--foreground)' }}>Gallery</h1>
         <h2 className="text-xl font-lora text-center mb-6" style={{ color: 'var(--foreground)' }}>-Artistic masterpieces from our collection-</h2>
-        <p className="text-lg font-lora text-center mb-8" style={{ color: 'var(--foreground)' }}>
-          &quot;The aim of art is to represent not the outward appearance of things, but their inward significance.&quot; — Aristotle
-        </p>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-2">
           {images.map((src, index) => (
             <motion.div
@@ -70,7 +68,7 @@ const Gallery = () => {
         </div>
         <div className="flex justify-center mt-4">
           <button
-            className="flex items-center justify-center bg-white text-black  px-4 py-2 rounded-xs mt-4 hover:bg-black hover:text-white"
+            className="flex items-center justify-center bg-white text-black  px-4 py-2 rounded-md mt-4 hover:bg-black hover:text-white"
             onClick={() => setShowMore(!showMore)}
           >
             {showMore ? 'Show Less' : 'View More'}

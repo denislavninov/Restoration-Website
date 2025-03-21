@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Projects = () => {
   const router = useRouter();
   const projects = [
-    { id: 1, title: 'Project One', description: 'Description of project one.', image: '/logo.avif ' },
+    { id: 1, title: 'Project One', description: 'Description of project one.', image: '/logo.avif' },
     { id: 2, title: 'Project Two', description: 'Description of project two.', image: '/logo.avif' },
     { id: 3, title: 'Project Three', description: 'Description of project three.', image: '/logo.avif' },
   ];
